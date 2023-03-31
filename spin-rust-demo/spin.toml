@@ -1,0 +1,15 @@
+spin_manifest_version = "1"
+authors = ["Huynh Duc Dung <dunghd.it@gmail.com>"]
+description = "Simple Rust App"
+name = "spin-rust-demo"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "spin-rust-demo"
+source = "target/wasm32-wasi/release/spin_rust_demo.wasm"
+allowed_http_hosts = []
+[component.trigger]
+route = "/..."
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
