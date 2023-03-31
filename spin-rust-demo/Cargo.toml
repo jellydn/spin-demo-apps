@@ -10,11 +10,11 @@ crate-type = [ "cdylib" ]
 
 [dependencies]
 # Useful crate to handle errors.
-anyhow = "1"
+anyhow = "=1.0.70"
 # Crate to simplify working with bytes.
-bytes = "1"
+bytes = "=1.4.0"
 # General-purpose crate with common HTTP types.
-http = "0.2"
+http = "=0.2.9"
 # The Spin SDK.
 spin-sdk = { git = "https://github.com/fermyon/spin", tag = "v1.0.0" }
 # Crate that generates Rust Wasm bindings from a WebAssembly interface.
