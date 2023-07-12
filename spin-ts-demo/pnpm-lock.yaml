@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@fermyon/spin-sdk':
-    specifier: 0.4.1
-    version: 0.4.1
+    specifier: 0.5.0
+    version: 0.5.0
   ts-loader:
     specifier: 9.4.4
     version: 9.4.4(typescript@5.1.6)(webpack@5.88.1)
@@ -28,8 +28,14 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /@fermyon/spin-sdk@0.4.1:
-    resolution: {integrity: sha512-EeiHN9p++1y0U2JwBYdU0k0h5qTv6wHxL0F8mTia/DbBsYwUziCHr7VWAGP5+DVmmvLuzC+mEhs9AM+ajVsQJQ==}
+  /@fermyon/spin-sdk@0.5.0:
+    resolution: {integrity: sha512-LMDEU+Zb+Sl0v/ZlTwKTpZ355wCanqs2jKIwbdnl89Rspllo/GhW/QzBgqRuMP1RidIdBXSorxhhufnmMnxQOQ==}
+    dependencies:
+      Buffer: 0.0.0
+      buffer: /Buffer@0.0.0
+      fast-text-encoding: 1.0.6
+      itty-router: 3.0.12
+      typedarray-to-buffer: 4.0.0
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -250,6 +256,11 @@ packages:
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
     dev: true
 
+  /Buffer@0.0.0:
+    resolution: {integrity: sha512-+zdncl8lI5TCkARStn9F1BwcuJYofYmD0oEHe5FNfCvGfeDJwf6+dSikCdQN6BMXXmHMhNNUagBN367WST1AIQ==}
+    engines: {node: '>= 0.2.0'}
+    dev: true
+
   /acorn-import-assertions@1.9.0(acorn@8.10.0):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
     peerDependencies:
@@ -434,6 +445,10 @@ packages:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
     dev: true
 
+  /fast-text-encoding@1.0.6:
+    resolution: {integrity: sha512-VhXlQgj9ioXCqGstD37E/HBeqEGV/qOD/kmbVG8h5xKBYvM1L3lR1Zn4555cQ8GkYbJa8aJSipLPndE1k6zK2w==}
+    dev: true
+
   /fastest-levenshtein@1.0.16:
     resolution: {integrity: sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==}
     engines: {node: '>= 4.9.1'}
@@ -517,6 +532,10 @@ packages:
   /isobject@3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /itty-router@3.0.12:
+    resolution: {integrity: sha512-s98XTPhle6GGbaFf0kYrOD3Q8gyhnqvOqkwYijC3AmkceNKqWUp13YHg6dWmqmVv4pP7l7c94XI92I0EXVGO0w==}
     dev: true
 
   /jest-worker@27.5.1:
@@ -817,6 +836,10 @@ packages:
       semver: 7.5.4
       typescript: 5.1.6
       webpack: 5.88.1(webpack-cli@5.1.4)
+    dev: true
+
+  /typedarray-to-buffer@4.0.0:
+    resolution: {integrity: sha512-6dOYeZfS3O9RtRD1caom0sMxgK59b27+IwoNy8RDPsmslSGOyU+mpTamlaIW7aNKi90ZQZ9DFaZL3YRoiSCULQ==}
     dev: true
 
   /typescript@5.1.6:
