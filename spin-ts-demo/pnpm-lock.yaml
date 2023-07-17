@@ -101,8 +101,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/node@20.4.1:
-    resolution: {integrity: sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==}
+  /@types/node@20.4.2:
+    resolution: {integrity: sha512-Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==}
     dev: true
 
   /@webassemblyjs/ast@1.11.6:
@@ -311,8 +311,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001514
-      electron-to-chromium: 1.4.454
+      caniuse-lite: 1.0.30001516
+      electron-to-chromium: 1.4.461
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
     dev: true
@@ -321,8 +321,8 @@ packages:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
     dev: true
 
-  /caniuse-lite@1.0.30001514:
-    resolution: {integrity: sha512-ENcIpYBmwAAOm/V2cXgM7rZUrKKaqisZl4ZAI520FIkqGXUxJjmaIssbRW5HVVR5tyV6ygTLIm15aU8LUmQSaQ==}
+  /caniuse-lite@1.0.30001516:
+    resolution: {integrity: sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==}
     dev: true
 
   /chalk@4.1.2:
@@ -380,8 +380,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /electron-to-chromium@1.4.454:
-    resolution: {integrity: sha512-pmf1rbAStw8UEQ0sr2cdJtWl48ZMuPD9Sto8HVQOq9vx9j2WgDEN6lYoaqFvqEHYOmGA9oRGn7LqWI9ta0YugQ==}
+  /electron-to-chromium@1.4.461:
+    resolution: {integrity: sha512-1JkvV2sgEGTDXjdsaQCeSwYYuhLRphRpc+g6EHTFELJXEiznLt3/0pZ9JuAOQ5p2rI3YxKTbivtvajirIfhrEQ==}
     dev: true
 
   /enhanced-resolve@5.15.0:
@@ -542,7 +542,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.4.1
+      '@types/node': 20.4.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -801,12 +801,12 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
-      terser: 5.18.2
+      terser: 5.19.0
       webpack: 5.88.1(webpack-cli@5.1.4)
     dev: true
 
-  /terser@5.18.2:
-    resolution: {integrity: sha512-Ah19JS86ypbJzTzvUCX7KOsEIhDaRONungA4aYBjEP3JZRf4ocuDzTg4QWZnPn9DEMiMYGJPiSOy7aykoCc70w==}
+  /terser@5.19.0:
+    resolution: {integrity: sha512-JpcpGOQLOXm2jsomozdMDpd5f8ZHh1rR48OFgWUH3QsyZcfPgv2qDCYbcDEAYNd4OZRj2bWYKpwdll/udZCk/Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
