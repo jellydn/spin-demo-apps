@@ -1,0 +1,15 @@
+spin_manifest_version = "1"
+authors = ["Huynh Duc Dung <dunghd.it@gmail.com>"]
+description = ""
+name = "spin-python-demo"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "spin-python-demo"
+source = "app.wasm"
+[component.trigger]
+route = "/..."
+[component.build]
+command = "spin py2wasm app -o app.wasm"
+watch = ["app.py", "Pipfile"]
