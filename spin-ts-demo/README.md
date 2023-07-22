@@ -12,7 +12,7 @@
 ## Usage
 
 ```sh
-spin plugin install js2wasm
+make install
 make build
 make dev
 ```

@@ -12,6 +12,7 @@
 ## Usage
 
 ```sh
+make install
 make build
 make dev
 ```
