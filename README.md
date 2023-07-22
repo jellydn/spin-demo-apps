@@ -1,9 +1,18 @@
-<h1 align="center">Welcome to spin-apps 👋</h1>
+<h1 align="center">Welcome to spin-demo-apps 👋</h1>
 <p>
   Spin Demo Apps
 </p>
 
 This repository contains three demo applications for Spin, written in Typescript, Go, and Rust. Each demo has its own README file with detailed instructions on how to run and use the application.
+
+## [What is Spin](./Spin.md)
+
+Spin is an open source framework for building and running fast, secure, and
+composable cloud microservices with WebAssembly. It aims to be the easiest way
+to get started with WebAssembly microservices, and takes advantage of the latest
+developments in the
+[WebAssembly component model](https://github.com/WebAssembly/component-model)
+and [Wasmtime](https://wasmtime.dev/) runtime.
 
 ## Demos
 
@@ -20,12 +29,6 @@ For more information on each demo, please refer to their respective README files
 - Website: https://productsway.com/
 - Twitter: [@jellydn](https://twitter.com/jellydn)
 - Github: [@jellydn](https://github.com/jellydn)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](https://github.com/jellydn/new-web-app/issues).
 
 ## Show your support
 
