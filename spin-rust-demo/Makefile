@@ -1,3 +1,7 @@
+.PHONY: install
+install:
+	rustup target add wasm32-wasi
+
 .PHONY: build
 build:
 	spin build
