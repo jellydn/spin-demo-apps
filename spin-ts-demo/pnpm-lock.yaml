@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@fermyon/spin-sdk':
-    specifier: 0.5.0
-    version: 0.5.0
+    specifier: 0.6.0
+    version: 0.6.0
   ts-loader:
     specifier: 9.4.4
     version: 9.4.4(typescript@5.2.2)(webpack@5.88.2)
@@ -28,8 +28,8 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /@fermyon/spin-sdk@0.5.0:
-    resolution: {integrity: sha512-LMDEU+Zb+Sl0v/ZlTwKTpZ355wCanqs2jKIwbdnl89Rspllo/GhW/QzBgqRuMP1RidIdBXSorxhhufnmMnxQOQ==}
+  /@fermyon/spin-sdk@0.6.0:
+    resolution: {integrity: sha512-lISlStRVFVof0mDtbn7NzJ2aXUdGjwEPeEzVOGk5YyD0NiUf8jlm/Dbi5tt8wcst1VG4wkoUnGiDaxO1PckFRg==}
     dependencies:
       Buffer: 0.0.0
       buffer: /Buffer@0.0.0
