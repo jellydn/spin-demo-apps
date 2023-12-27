@@ -67,6 +67,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "http"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b32afd38673a8016f7c9ae69e5af41a58f81b1d31689040f2f1959594ce194ea"
+dependencies = [
+ "bytes",
+ "fnv",
+ "itoa",
+]
+
+[[package]]
 name = "id-arena"
 version = "2.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -126,7 +137,7 @@ source = "git+https://github.com/fermyon/spin?tag=v1.0.0#df99be238267b498451993d
 dependencies = [
  "anyhow",
  "bytes",
- "http",
+ "http 0.2.11",
  "proc-macro2",
  "quote",
  "syn 1.0.109",
@@ -141,7 +152,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "bytes",
- "http",
+ "http 1.0.0",
  "spin-sdk",
  "wit-bindgen-rust",
 ]
@@ -154,7 +165,7 @@ dependencies = [
  "anyhow",
  "bytes",
  "form_urlencoded",
- "http",
+ "http 0.2.11",
  "spin-macro",
  "thiserror",
  "wit-bindgen-rust",
