@@ -18,6 +18,6 @@ http = "=1.0.0"
 # The Spin SDK.
 spin-sdk = { git = "https://github.com/fermyon/spin", tag = "v1.0.0" }
 # Crate that generates Rust Wasm bindings from a WebAssembly interface.
-wit-bindgen-rust = { git = "https://github.com/bytecodealliance/wit-bindgen", rev = "37f2b1d1974803b528c70d6ac616ae6f216d9e15" }
+wit-bindgen-rust = { git = "https://github.com/bytecodealliance/wit-bindgen", rev = "f49d558d32de48eb8145466387a1560245d6106c" }
 
 [workspace]
