@@ -281,7 +281,7 @@ dependencies = [
  "bytes",
  "http 1.0.0",
  "spin-sdk",
- "wit-bindgen-rust 0.49.0",
+ "wit-bindgen-rust 0.50.0",
 ]
 
 [[package]]
@@ -424,8 +424,8 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen-core"
-version = "0.49.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=964dc8e5bee553af24b6a84cc9480b65899e92f6#964dc8e5bee553af24b6a84cc9480b65899e92f6"
+version = "0.50.0"
+source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=88533c1208c16b3cdf50f24799b6e1728d12d7f4#88533c1208c16b3cdf50f24799b6e1728d12d7f4"
 dependencies = [
  "anyhow",
  "heck 0.5.0",
@@ -472,8 +472,8 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen-rust"
-version = "0.49.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=964dc8e5bee553af24b6a84cc9480b65899e92f6#964dc8e5bee553af24b6a84cc9480b65899e92f6"
+version = "0.50.0"
+source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=88533c1208c16b3cdf50f24799b6e1728d12d7f4#88533c1208c16b3cdf50f24799b6e1728d12d7f4"
 dependencies = [
  "anyhow",
  "heck 0.5.0",
