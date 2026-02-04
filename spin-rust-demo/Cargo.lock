@@ -419,7 +419,7 @@ dependencies = [
 [[package]]
 name = "wit-bindgen-core"
 version = "0.52.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=3dfc82a753ac7e514802a618ddedb24dd51048fe#3dfc82a753ac7e514802a618ddedb24dd51048fe"
+source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=76e9f08917cacce2515445dc69ce923410449e5f#76e9f08917cacce2515445dc69ce923410449e5f"
 dependencies = [
  "anyhow",
  "heck 0.5.0",
@@ -467,7 +467,7 @@ dependencies = [
 [[package]]
 name = "wit-bindgen-rust"
 version = "0.52.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=3dfc82a753ac7e514802a618ddedb24dd51048fe#3dfc82a753ac7e514802a618ddedb24dd51048fe"
+source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=76e9f08917cacce2515445dc69ce923410449e5f#76e9f08917cacce2515445dc69ce923410449e5f"
 dependencies = [
  "anyhow",
  "heck 0.5.0",
