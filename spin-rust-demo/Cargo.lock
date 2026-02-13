@@ -269,7 +269,7 @@ dependencies = [
  "bytes",
  "http 1.0.0",
  "spin-sdk",
- "wit-bindgen-rust 0.53.0",
+ "wit-bindgen-rust 0.53.1",
 ]
 
 [[package]]
@@ -378,9 +378,9 @@ checksum = "ebc1c04c71510c7f702b52b7c350734c9ff1295c464a03335b00bb84fc54f853"
 
 [[package]]
 name = "wasm-encoder"
-version = "0.245.0"
+version = "0.245.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "95d568e113f706ee7a7df9b33547bb80721f55abffc79b3dc4d09c368690e662"
+checksum = "3f9dca005e69bf015e45577e415b9af8c67e8ee3c0e38b5b0add5aa92581ed5c"
 dependencies = [
  "leb128fmt",
  "wasmparser",
@@ -388,9 +388,9 @@ dependencies = [
 
 [[package]]
 name = "wasm-metadata"
-version = "0.245.0"
+version = "0.245.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ce52b194ec202d029751081d735c1ae49c1bacbdc2634c821a86211e3751300c"
+checksum = "da55e60097e8b37b475a0fa35c3420dd71d9eb7bd66109978ab55faf56a57efb"
 dependencies = [
  "anyhow",
  "indexmap",
@@ -400,9 +400,9 @@ dependencies = [
 
 [[package]]
 name = "wasmparser"
-version = "0.245.0"
+version = "0.245.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "48a767a48974f0c8b66f211b96e01aa77feed58b8ccce4e7f0cff0ae55b174d4"
+checksum = "4f08c9adee0428b7bddf3890fc27e015ac4b761cc608c822667102b8bfd6995e"
 dependencies = [
  "bitflags 2.10.0",
  "hashbrown",
@@ -412,12 +412,12 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen-core"
-version = "0.53.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=1c6a7a582aa98c80fd3469c4ccc258a3874d431c#1c6a7a582aa98c80fd3469c4ccc258a3874d431c"
+version = "0.53.1"
+source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=d61d3708fe4a90ab811b94e1fd608f2f05fa2513#d61d3708fe4a90ab811b94e1fd608f2f05fa2513"
 dependencies = [
  "anyhow",
  "heck 0.5.0",
- "wit-parser 0.245.0",
+ "wit-parser 0.245.1",
 ]
 
 [[package]]
@@ -460,8 +460,8 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen-rust"
-version = "0.53.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=1c6a7a582aa98c80fd3469c4ccc258a3874d431c#1c6a7a582aa98c80fd3469c4ccc258a3874d431c"
+version = "0.53.1"
+source = "git+https://github.com/bytecodealliance/wit-bindgen?rev=d61d3708fe4a90ab811b94e1fd608f2f05fa2513#d61d3708fe4a90ab811b94e1fd608f2f05fa2513"
 dependencies = [
  "anyhow",
  "heck 0.5.0",
@@ -486,9 +486,9 @@ dependencies = [
 
 [[package]]
 name = "wit-component"
-version = "0.245.0"
+version = "0.245.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "896efcb3d68ea1cb555d2d1df185b4071b39d91cf850456809bb0c90a0e4e66e"
+checksum = "4894f10d2d5cbc17c77e91f86a1e48e191a788da4425293b55c98b44ba3fcac9"
 dependencies = [
  "anyhow",
  "bitflags 2.10.0",
@@ -500,7 +500,7 @@ dependencies = [
  "wasm-encoder",
  "wasm-metadata",
  "wasmparser",
- "wit-parser 0.245.0",
+ "wit-parser 0.245.1",
 ]
 
 [[package]]
@@ -517,9 +517,9 @@ dependencies = [
 
 [[package]]
 name = "wit-parser"
-version = "0.245.0"
+version = "0.245.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b5cda4f69fdc5a8d54f7032262217dd89410a933e3f86fdad854f5833caf3ccb"
+checksum = "330698718e82983499419494dd1e3d7811a457a9bf9f69734e8c5f07a2547929"
 dependencies = [
  "anyhow",
  "hashbrown",
