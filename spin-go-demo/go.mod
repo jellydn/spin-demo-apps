@@ -1,6 +1,6 @@
 module github.com/spin_go_demo
 
-go 1.17
+go 1.26.0
 
 require github.com/fermyon/spin/sdk/go v2.1.0
 
